@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c82e7717-b184-4805-9878-4762446adf72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestUnitaire/VectorHelperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestUnitaire/VectorHelperTest.java" afterPath="$PROJECT_DIR$/src/TestUnitaire/VectorHelperTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/TestUnitaire/VectorHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -97,6 +97,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/MinMax.java" />
         <option value="$PROJECT_DIR$/src/VectorHelper.java" />
+        <option value="$PROJECT_DIR$/src/TestUnitaire/VectorHelperTest.java" />
       </list>
     </option>
   </component>
@@ -265,7 +266,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1337000" />
+    <option name="totallyTimeSpent" value="1398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1366" height="742" extended-state="6" />
@@ -375,7 +376,7 @@
     <entry file="file://$PROJECT_DIR$/src/TestUnitaire/VectorHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
