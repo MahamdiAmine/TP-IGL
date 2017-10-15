@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d77737a-f232-461e-af56-188197e4c72b" name="Default" comment="" />
+    <list default="true" id="8d77737a-f232-461e-af56-188197e4c72b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VectorHelperTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index-files/index-9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/overview-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/overview-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/serialized-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheet.css" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -409,7 +436,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508102266438</updated>
-      <workItem from="1508102280287" duration="2825000" />
+      <workItem from="1508102280287" duration="3322000" />
     </task>
     <servers />
   </component>
@@ -446,7 +473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2828000" />
+    <option name="totallyTimeSpent" value="3325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1366" height="742" extended-state="6" />
