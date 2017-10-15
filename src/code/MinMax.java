@@ -1,5 +1,7 @@
+package code;
+
 /**
- * <b> MinMax: cette classe est utilisee  pour sauvgarder le min et le max d'un vecteur
+ * <b> code.MinMax: cette classe est utilisee  pour sauvgarder le min et le max d'un vecteur
  * @author Mahamdi Mohammed
  * @version 1.0.4
  */

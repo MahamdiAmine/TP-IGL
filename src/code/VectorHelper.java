@@ -1,5 +1,7 @@
+package code;
+
 /**
- * <b>VectorHelper est la classe qui contient les defferente methodes pour manipuler les vecteurs.</b>
+ * <b>code.VectorHelper est la classe qui contient les defferente methodes pour manipuler les vecteurs.</b>
  * @author Mahamdi&&Khaldi
  * @version 3.0
  */
@@ -84,7 +86,7 @@ public class VectorHelper {
      * une fonction qui retourne le min et le max d'un tableau
      *@author Khaldi abderraouf
      * @param tab : le tableau des entier du quel nous voulons savoir son min et son max
-     * @return minmax un objet MinMax qui contient le minimum et le maximum du tableu tab
+     * @return minmax un objet code.MinMax qui contient le minimum et le maximum du tableu tab
      */
     public static MinMax minMax(int tab[]){
         int min=tab[0];
