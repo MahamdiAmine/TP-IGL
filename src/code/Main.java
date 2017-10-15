@@ -116,11 +116,12 @@ public class Main {
                     for (int i = 0; i < taille; i++) {
                         v1[i] = scanner.nextInt();
                     }
+                    VectorHelper.afficher(v1);
                     System.out.println("la puissance ");
                     int p = scanner.nextInt();
                     VectorHelper.afficher(v1);
-                    VectorHelper.puissance(v1,p);
-                    VectorHelper.afficher(v1);
+                    int v2[]=VectorHelper.puissance(v1,p);
+                    VectorHelper.afficher(v2);
                 case 6:break;//Quitter
                 default://Le numero n'est pas valide
                     System.out.println("entrer un numero valide!!!");
