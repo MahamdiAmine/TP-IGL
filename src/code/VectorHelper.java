@@ -12,25 +12,28 @@ public class VectorHelper {
      * @author Mahamdi Mohammed
      * @version 1.0.4
      * @param vect :vecteur d'entier
+     * @return vect2,le vecteur vect triee
      *
      */
-    public static void tri(int vect[]) {
-        int longueur = vect.length;
+    public static int[] trier(int vect[]) {
+        int[]vect2=vect;
+        int longueur = vect2.length;
         int tampon = 0;
         boolean permut;
         do {
             permut = false;
             for (int i = 0; i < longueur - 1; i++) {
                 // Teste si 2 éléments successifs sont dans le bon ordre ou non
-                if (vect[i] > vect[i + 1]) {
+                if (vect2[i] > vect2[i + 1]) {
                     // s'ils ne le sont pas, on échange leurs positions
-                    tampon = vect[i];
-                    vect[i] = vect[i + 1];
-                    vect[i + 1] = tampon;
+                    tampon = vect2[i];
+                    vect2[i] = vect2[i + 1];
+                    vect2[i + 1] = tampon;
                     permut = true;
                 }
             }
         } while (permut);
+        return vect2;
     }
     /**
      * Sommer deux vecteurs

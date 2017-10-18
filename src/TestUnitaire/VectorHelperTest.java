@@ -10,14 +10,13 @@ import static org.junit.Assert.*;
  * @version 1.0.4
  */
 public class VectorHelperTest {
-    //tester du methode Tri:
+       //tester du methode Trier:
     @org.junit.Test
-    public void tri() throws Exception {
+    public void trier() throws Exception {
         int[] vect = new int[]{1, 5, 3, 7, 2, 4, 88, 100005};
-        VectorHelper.tri(vect);
-        assertArrayEquals(new int[]{1, 2, 3, 4, 5, 7, 88, 100005}, vect);
+        int []vect2=VectorHelper.trier(vect);
+        assertArrayEquals(new int[]{1, 2, 3, 4, 5, 7, 88, 100005}, vect2);
     }
-
     //tester du methode sommeVec:
     @org.junit.Test
     public void sommeVec() throws Exception {

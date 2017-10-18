@@ -35,7 +35,6 @@ public class Main {
             System.out.printf("\t||   |=| Code by : %s ||\n", codeby);
             System.out.printf("\t||======================================================||\n");
             System.out.println("__________________________________________________________________________________\n");
-
             System.out.println("\t[0x1]  Trier les éléments d’un vecteur");
             System.out.println("\t[0x2]  Sommer deux vecteurs");
             System.out.println("\t[0x3]  Inverser les éléments d’un vecteur");
@@ -57,13 +56,12 @@ public class Main {
                     }
                     VectorHelper.afficher(v1);
                     System.out.println("Apres le tri :");
-                    VectorHelper.tri(v1);
-                    VectorHelper.afficher(v1);
+                    int[]vect2=VectorHelper.trier(v1);
+                    VectorHelper.afficher(vect2);
                     break;
                 case 2://Sommer deux vecteurs
                     System.out.println("La taille de le premier  vecteur");
                     taille = scanner.nextInt();
-
                     System.out.println("La taille de le deusieme   vecteur");
                     taille2 = scanner.nextInt();
                     if (taille != taille2) throw new DifferentSize();
