@@ -10,6 +10,7 @@ import static org.junit.Assert.*;
  * @version 1.0.4
  */
 public class VectorHelperTest {
+    //tester du methode Tri:
     @org.junit.Test
     public void tri() throws Exception {
         int[] vect = new int[]{1, 5, 3, 7, 2, 4, 88, 100005};
@@ -17,6 +18,7 @@ public class VectorHelperTest {
         assertArrayEquals(new int[]{1, 2, 3, 4, 5, 7, 88, 100005}, vect);
     }
 
+    //tester du methode sommeVec:
     @org.junit.Test
     public void sommeVec() throws Exception {
         int[] vect1 = new int[]{1, 5, 3, 7, 2, 4, 88, 100005};
@@ -26,7 +28,7 @@ public class VectorHelperTest {
         assertArrayEquals(new int[]{10,10,10,9,9,6,99,100010},vect3);
     }
 
-
+    //tester du methode reverse:
     @org.junit.Test
     public void reverse() throws Exception {
         int[] vect = new int[]{9, 5, 7, 2, 7, 2, 11, 5};
@@ -35,6 +37,7 @@ public class VectorHelperTest {
         assertArrayEquals(new int[]{5,11,2,7,2,7,5,9},vect2);
     }
 
+    //tester du methode minMax:
     @org.junit.Test
     public void minMax() throws Exception {
         MinMax minmax;
@@ -46,6 +49,7 @@ public class VectorHelperTest {
         assertArrayEquals(new int[]{2,11},tab);
     }
 
+    //tester du methode puissance:
     @org.junit.Test
     public void puissance() throws Exception {
         int[] vect = new int[]{9, 5, 7, 2, 7, 2, 11, 5};
@@ -53,5 +57,6 @@ public class VectorHelperTest {
         int []vect2=VectorHelper.puissance(vect,2);
         assertArrayEquals(new int[]{81, 25, 49, 4, 49, 4, 121, 25},vect2);
     }
+
 
 }
